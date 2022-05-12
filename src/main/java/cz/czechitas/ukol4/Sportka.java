@@ -12,9 +12,7 @@ public class Sportka {
 
   public Sportka() {
     //TODO naplnit osudí čísly 1 až 49.
-    int cislaOsudi=0;
-      for (int i = 0; i < 49; i++) {
-        cislaOsudi=cislaOsudi+1;
+      for (int cislaOsudi = 1; cislaOsudi < 50; cislaOsudi++) {
         //System.out.println(cislaOsudi);
 
         osudi.add(cislaOsudi);
